@@ -16,7 +16,7 @@
 			"database"
 		],
 		"psr-4": {
-			"App\\": "app/"
+			"juan2ramos\\": "app/"
 		}
 	},
 	"autoload-dev": {
