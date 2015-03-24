@@ -144,7 +144,7 @@ return [
 		'juan2ramos\Providers\ConfigServiceProvider',
 		'juan2ramos\Providers\EventServiceProvider',
 		'juan2ramos\Providers\RouteServiceProvider',
-
+		'Barryvdh\Debugbar\ServiceProvider',
 	],
 
 	/*
@@ -192,6 +192,8 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
+
+		'Debugbar' => 'Barryvdh\Debugbar\Facade',
 
 	],
 

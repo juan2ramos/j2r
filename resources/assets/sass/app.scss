@@ -1,0 +1,215 @@
+/* Default Styles */
+@mixin abs-pos($top: auto, $right: auto, $bottom: auto, $left: auto) {
+  bottom: $bottom;
+  left: $left;
+  position: absolute;
+  right: $right;
+  top: $top;
+}
+
+@mixin font-size($sizeValue: 16 ) {
+  font-size: ($sizeValue / 16) + rem;
+}
+
+@mixin center($width,$var: '',$top: 0, $bottom: 0) {
+  margin: $top+rem auto $bottom+rem;
+  width: $width + #{$var};
+}
+
+@mixin breakpoint($point) {
+  @if $point == large {
+    @media (min-width: 64.375em) {
+      @content;
+    }
+  } @else if $point == medium {
+    @media (min-width: 50em) {
+      @content;
+    }
+  } @else if $point == small {
+    @media (min-width: 37.5em) {
+      @content;
+    }
+  }
+}
+
+
+* {
+  -webkit-box-sizing: border-box; // Safari <= 5
+  -moz-box-sizing: border-box; // Firefox <= 19
+  box-sizing: border-box;
+}
+a {
+  color: tomato;
+  &:hover{
+    text-decoration: none;
+  }
+}
+body {
+  color: #464c3e;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+}
+li { list-style: none; }
+section{
+  margin: auto;
+  max-width: 90rem;
+}
+strong{font-weight: 300;  }
+ul {
+  margin: 0;
+  padding: 0;
+}
+@import url(font.scss);
+/* colors */
+$yellow: #FCD106;
+$blue: #6ce;
+$green: #8da;
+$gray: #EDEFF0;
+
+/* header */
+
+@for $i from 1 through 8 {
+
+  [data-image='#{$i}'] {
+    background: #5B6268 url("../img/#{$i}.jpg") no-repeat fixed center;
+    background-size: cover;
+  }
+}
+
+.Header {
+  @include center(100, '%');
+  max-width: 90em;
+  height: 500px;
+  text-align: center;
+  button{
+    background: tomato;
+    border: none;
+    box-shadow: 0 .32rem rgb(163, 75, 59);
+    color: white;
+    display: inline;
+    font-size: 1.2rem;
+    font-weight: 400;
+    left: 50%;
+    margin-left: -10rem;
+    padding: 1.25rem;
+    position: absolute;
+    top: 12.1875rem;
+    width: 20rem;
+    &:hover{
+      box-shadow: 0 0 tomato,inset 0 0 0.4rem rgba(0,0,0,0.5);
+      padding: 1.4rem 1.25rem 1.42rem;
+    }
+    &:focus{
+       outline: none;
+    }
+  }
+  p {
+    border-bottom: .0625rem solid tomato;
+    display: inline;
+    line-height: 1rem;
+    padding: 0.65rem;
+    position: relative;
+    top: 25rem;
+    text-shadow: 0 0 0.65rem tomato;
+    font-weight: 400;
+    color: white;
+  }
+}
+
+.Header-nav {
+  @include font-size(15);
+  background: white;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+  padding: .62rem 1.2rem;
+  li {
+    display: inline;
+    line-height: 1.5rem;
+  }
+  ul {
+    @include center(90, '%');
+    padding: 0;
+    text-align: center;
+  }
+}
+
+.Header-message {
+  @include font-size(20);
+  text-align: center;
+}
+
+.BarSocial {
+  @include font-size(10);
+  @include center(100, '%');
+  box-shadow: 0 0 1.2rem 0 rgba(0, 0, 0, .5);
+  max-width: 90rem;
+  a{
+    @include font-size(24);
+    color: rgb(181, 181, 181);
+    line-height: 0;
+    text-decoration: none;
+    &:hover{
+      color: tomato;
+    }
+  }
+  li {
+    display: inline;
+  }
+  ul {
+    display: inline-block;
+    width: 50%;
+    margin-right: -2px;
+    &:last-child {
+      text-align: right;
+      li{
+        margin-left: 10px;
+      }
+    }
+  }
+  .contact{
+    @include font-size(12);
+    span {
+      @include font-size(18);
+      vertical-align: middle;
+    }
+  }
+  .content{
+    margin: auto;
+    width: 90%;
+    padding: .6rem 0 .4rem;
+  }
+}
+
+/* About */
+
+.About {
+  background: $gray;
+  padding-bottom: 3rem;
+  text-align: center;
+  h1 {
+    @include font-size(44);
+    font-weight: 300;
+    margin: 0;
+    padding: 3rem 0 2rem;
+  }
+  p {
+    @include font-size(20.8);
+    @include center(90, '%', 1.25, 1.25);
+    line-height: 2rem;
+    text-align: justify;
+
+  }
+}
+
+/* Do */
+
+ .Do{
+   background: $yellow;
+   text-align: center;
+   h1{
+     margin: 0;
+     padding: 0;
+     color: $gray;
+   }
+ }
+

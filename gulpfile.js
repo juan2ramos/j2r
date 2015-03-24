@@ -12,10 +12,7 @@ elixir.config.sourcemaps = false;
  */
 
 elixir(function(mix) {
-    mix.less([
-        'app.less',
-        'normalize.less'
-    ]);
+    mix.sass("app.scss", 'public/css/');
 });
 elixir(function(mix) {
     mix.styles([
