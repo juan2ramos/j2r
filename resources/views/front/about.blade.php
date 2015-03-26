@@ -18,6 +18,6 @@
 
     <p>
         Me apasiona y disfruto con cada proyecto, pongo <strong>creatividad</strong> e <strong>imaginación</strong>, es
-        una nueva oportunidad de aprender y mejorar mis <a href="#">habilidades</a>.
+        una nueva oportunidad de aprender y mejorar mis <strong>habilidades</strong>.
     </p>
 </section>

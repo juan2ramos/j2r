@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c42c80dd-f191-40ca-ad38-85bc6a6024cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/front/about.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/front/barSocial.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/front/do.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/font.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/front/front.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layout/front.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/front/header.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.less/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/normalize.less/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/less/app.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/less/normalize.less" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/juan2ramos.svg" afterPath="$PROJECT_DIR$/public/img/juan2ramos.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/about.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/about.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/app.css" afterPath="$PROJECT_DIR$/public/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/sass/app.scss" afterPath="$PROJECT_DIR$/resources/assets/sass/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/do.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/do.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/header.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/header.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -53,46 +37,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="front.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/front/front.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.75">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="do.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/front/do.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.054992765">
-              <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0535715">
-              <caret line="65" column="11" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.47058824">
+              <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
               <folding>
-                <element signature="e#215#256#0" expanded="false" />
-                <element signature="e#309#376#0" expanded="false" />
-                <element signature="e#404#663#0" expanded="false" />
-                <element signature="e#668#794#0" expanded="false" />
-                <element signature="e#865#962#0" expanded="false" />
-                <element signature="e#995#1034#0" expanded="false" />
-                <element signature="e#1066#1096#0" expanded="false" />
-                <element signature="e#1235#1368#0" expanded="false" />
-                <element signature="e#1378#2173#0" expanded="false" />
-                <element signature="e#2187#2446#0" expanded="false" />
-                <element signature="e#2464#2515#0" expanded="false" />
-                <element signature="e#2528#3211#0" expanded="false" />
-                <element signature="e#3233#3536#0" expanded="false" />
+                <element signature="e#252#293#0" expanded="false" />
+                <element signature="e#346#413#0" expanded="false" />
+                <element signature="e#441#700#0" expanded="false" />
+                <element signature="e#814#940#0" expanded="false" />
+                <element signature="e#943#1054#0" expanded="false" />
+                <element signature="e#1060#1159#0" expanded="false" />
+                <element signature="e#1209#1248#0" expanded="false" />
+                <element signature="e#1280#1310#0" expanded="false" />
+                <element signature="e#1375#1508#0" expanded="false" />
+                <element signature="e#2313#2572#0" expanded="false" />
+                <element signature="e#2590#2641#0" expanded="false" />
+                <element signature="e#2654#3301#0" expanded="false" />
+                <element signature="e#3323#4037#0" expanded="false" />
+                <element signature="e#4053#4222#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/front/about.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.928572">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/front/header.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42696628">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,15 +115,15 @@
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/public/humans.txt" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FrontController.php" />
-        <option value="$PROJECT_DIR$/resources/views/front/header.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/front/about.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/sass/font.sass" />
         <option value="$PROJECT_DIR$/resources/assets/sass/font.scss" />
         <option value="$PROJECT_DIR$/resources/views/layout/front.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/front.blade.php" />
-        <option value="$PROJECT_DIR$/resources/assets/sass/app.scss" />
         <option value="$PROJECT_DIR$/resources/views/front/barSocial.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/do.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/about.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/sass/app.scss" />
+        <option value="$PROJECT_DIR$/resources/views/front/header.blade.php" />
       </list>
     </option>
   </component>
@@ -202,6 +187,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -331,7 +317,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,7 +327,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="bar&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/resources/views/front/barSocial.blade.php&#10;fr&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/app/Http/Controllers/FrontController.php&#10;fron&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/resources/views/layout/front.blade.php&#10;front&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/resources/views/front/front.blade.php&#10;fro&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/resources/views/layout/front.blade.php&#10;f&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/app/Http/Controllers/FrontController.php&#10;app&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/resources/assets/sass/app.scss&#10;compo&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/composer.json&#10;rou&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/app/Http/routes.php&#10;compose.jso&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/composer.json&#10;c&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/vendor/symfony/finder/Symfony/Component/Finder/Tests/Fixtures/one/b/c.neon&#10;.e&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/.env&#10;rout&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/app/Http/routes.php&#10;da&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/config/database.php&#10;data&#9;null&#9;null&#10;home&#9;null&#9;null&#10;wel&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/resources/views/welcome.blade.php&#10;style&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/public/css/style.css&#10;app.&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/resources/assets/less/app.less" />
+    <property name="SearchEverywhereHistoryKey" value="header&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/resources/views/front/header.blade.php&#10;abo&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/resources/views/front/about.blade.php&#10;bar&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/resources/views/front/barSocial.blade.php&#10;fr&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/app/Http/Controllers/FrontController.php&#10;fron&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/resources/views/layout/front.blade.php&#10;front&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/resources/views/front/front.blade.php&#10;fro&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/resources/views/layout/front.blade.php&#10;f&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/app/Http/Controllers/FrontController.php&#10;app&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/resources/assets/sass/app.scss&#10;compo&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/composer.json&#10;rou&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/app/Http/routes.php&#10;compose.jso&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/composer.json&#10;c&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/vendor/symfony/finder/Symfony/Component/Finder/Tests/Fixtures/one/b/c.neon&#10;.e&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/.env&#10;rout&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/app/Http/routes.php&#10;da&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/config/database.php&#10;data&#9;null&#9;null&#10;home&#9;null&#9;null&#10;wel&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/resources/views/welcome.blade.php&#10;style&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/public/css/style.css&#10;app.&#9;FILE&#9;file:///Users/juan2ramos/Sites/juan2ramos/juan2ramos/resources/assets/less/app.less" />
     <property name="js.buildTools.gulp.node_interpreter" value="/usr/local/bin/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="/usr/local/lib/node_modules/gulp" />
     <property name="recentsLimit" value="5" />
@@ -452,18 +437,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26391098" sideWeight="0.5380507" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26391098" sideWeight="0.46194926" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32947233" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="73" y="320" width="1258" height="256" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24642289" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843792" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843792" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843792" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20694259" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26391098" sideWeight="0.5586481" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26391098" sideWeight="0.4413519" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24642289" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843792" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3298887" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277635" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -474,7 +460,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.28920308" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32843792" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -488,11 +473,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.28920308" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843792" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977304" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843792" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290938" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843792" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20694259" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26391098" sideWeight="0.55050504" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32843792" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22655007" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26391098" sideWeight="0.44949496" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24642289" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -518,43 +503,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/front.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FrontController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="197" column="6" selection-start-line="197" selection-start-column="6" selection-end-line="197" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/front.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -562,7 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -570,7 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -579,19 +529,20 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#215#256#0" expanded="false" />
-            <element signature="e#309#376#0" expanded="false" />
-            <element signature="e#404#663#0" expanded="false" />
-            <element signature="e#668#794#0" expanded="false" />
-            <element signature="e#865#962#0" expanded="false" />
-            <element signature="e#995#1034#0" expanded="false" />
-            <element signature="e#1066#1096#0" expanded="false" />
-            <element signature="e#1235#1368#0" expanded="false" />
-            <element signature="e#1378#2173#0" expanded="false" />
-            <element signature="e#2187#2446#0" expanded="false" />
-            <element signature="e#2464#2515#0" expanded="false" />
-            <element signature="e#2528#3211#0" expanded="false" />
-            <element signature="e#3233#3536#0" expanded="false" />
+            <element signature="e#252#293#0" expanded="false" />
+            <element signature="e#346#413#0" expanded="false" />
+            <element signature="e#441#700#0" expanded="false" />
+            <element signature="e#814#940#0" expanded="false" />
+            <element signature="e#943#1054#0" expanded="false" />
+            <element signature="e#1060#1159#0" expanded="false" />
+            <element signature="e#1209#1248#0" expanded="false" />
+            <element signature="e#1280#1310#0" expanded="false" />
+            <element signature="e#1375#1508#0" expanded="false" />
+            <element signature="e#2313#2572#0" expanded="false" />
+            <element signature="e#2590#2641#0" expanded="false" />
+            <element signature="e#2654#3301#0" expanded="false" />
+            <element signature="e#3323#4037#0" expanded="false" />
+            <element signature="e#4053#4222#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -621,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,19 +594,20 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding>
-            <element signature="e#215#256#0" expanded="false" />
-            <element signature="e#309#376#0" expanded="false" />
-            <element signature="e#404#663#0" expanded="false" />
-            <element signature="e#668#794#0" expanded="false" />
-            <element signature="e#865#962#0" expanded="false" />
-            <element signature="e#995#1034#0" expanded="false" />
-            <element signature="e#1066#1096#0" expanded="false" />
-            <element signature="e#1235#1368#0" expanded="false" />
-            <element signature="e#1378#2173#0" expanded="false" />
-            <element signature="e#2187#2446#0" expanded="false" />
-            <element signature="e#2464#2515#0" expanded="false" />
-            <element signature="e#2528#3211#0" expanded="false" />
-            <element signature="e#3233#3536#0" expanded="false" />
+            <element signature="e#252#293#0" expanded="false" />
+            <element signature="e#346#413#0" expanded="false" />
+            <element signature="e#441#700#0" expanded="false" />
+            <element signature="e#814#940#0" expanded="false" />
+            <element signature="e#943#1054#0" expanded="false" />
+            <element signature="e#1060#1159#0" expanded="false" />
+            <element signature="e#1209#1248#0" expanded="false" />
+            <element signature="e#1280#1310#0" expanded="false" />
+            <element signature="e#1375#1508#0" expanded="false" />
+            <element signature="e#2313#2572#0" expanded="false" />
+            <element signature="e#2590#2641#0" expanded="false" />
+            <element signature="e#2654#3301#0" expanded="false" />
+            <element signature="e#3323#4037#0" expanded="false" />
+            <element signature="e#4053#4222#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -677,20 +627,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/storage/framework/views/65765791f5f2aae6a75023445f5ac030">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.1292517">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3536036">
           <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -698,7 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38426965">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,7 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.392857">
           <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,26 +731,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28509405">
           <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/humans.txt">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30377907">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.75253254">
           <caret line="197" column="6" selection-start-line="197" selection-start-column="6" selection-end-line="197" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.85238785">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1273516">
           <caret line="41" column="47" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,27 +770,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/about.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93932587">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7345361">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FrontController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7258427">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,7 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46082088">
           <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="283" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,7 +788,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.80752534">
           <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/barSocial.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27496383">
+          <caret line="10" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -877,40 +806,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/barSocial.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/front/do.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27496383">
-          <caret line="10" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="10" />
+        <state vertical-scroll-proportion="-0.6785714">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-less/node_modules/less/dist/less-1.3.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21835883">
+          <caret line="1815" column="9" selection-start-line="1815" selection-start-column="9" selection-end-line="1815" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-less/node_modules/less/dist/less-1.2.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21835883">
+          <caret line="7" column="25961" selection-start-line="7" selection-start-column="25961" selection-end-line="7" selection-end-column="25961" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-less/node_modules/less/dist/less-1.2.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21835883">
+          <caret line="1795" column="9" selection-start-line="1795" selection-start-column="9" selection-end-line="1795" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-less/node_modules/less/dist/less-1.2.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21835883">
+          <caret line="7" column="25545" selection-start-line="7" selection-start-column="25545" selection-end-line="7" selection-end-column="25545" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-less/node_modules/less/dist/less-1.2.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21835883">
+          <caret line="1777" column="9" selection-start-line="1777" selection-start-column="9" selection-end-line="1777" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-less/node_modules/less/dist/less-1.2.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21835883">
+          <caret line="7" column="25385" selection-start-line="7" selection-start-column="25385" selection-end-line="7" selection-end-column="25385" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-less/node_modules/less/dist/less-1.2.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21835883">
+          <caret line="1763" column="9" selection-start-line="1763" selection-start-column="9" selection-end-line="1763" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-less/node_modules/less/dist/less-1.1.6.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21835883">
+          <caret line="7" column="23022" selection-start-line="7" selection-start-column="23022" selection-end-line="7" selection-end-column="23022" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-less/node_modules/less/dist/less-1.1.6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21835883">
+          <caret line="1609" column="9" selection-start-line="1609" selection-start-column="9" selection-end-line="1609" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/about.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.928572">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0535715">
-          <caret line="65" column="11" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.47058824">
+          <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
           <folding>
-            <element signature="e#215#256#0" expanded="false" />
-            <element signature="e#309#376#0" expanded="false" />
-            <element signature="e#404#663#0" expanded="false" />
-            <element signature="e#668#794#0" expanded="false" />
-            <element signature="e#865#962#0" expanded="false" />
-            <element signature="e#995#1034#0" expanded="false" />
-            <element signature="e#1066#1096#0" expanded="false" />
-            <element signature="e#1235#1368#0" expanded="false" />
-            <element signature="e#1378#2173#0" expanded="false" />
-            <element signature="e#2187#2446#0" expanded="false" />
-            <element signature="e#2464#2515#0" expanded="false" />
-            <element signature="e#2528#3211#0" expanded="false" />
-            <element signature="e#3233#3536#0" expanded="false" />
+            <element signature="e#252#293#0" expanded="false" />
+            <element signature="e#346#413#0" expanded="false" />
+            <element signature="e#441#700#0" expanded="false" />
+            <element signature="e#814#940#0" expanded="false" />
+            <element signature="e#943#1054#0" expanded="false" />
+            <element signature="e#1060#1159#0" expanded="false" />
+            <element signature="e#1209#1248#0" expanded="false" />
+            <element signature="e#1280#1310#0" expanded="false" />
+            <element signature="e#1375#1508#0" expanded="false" />
+            <element signature="e#2313#2572#0" expanded="false" />
+            <element signature="e#2590#2641#0" expanded="false" />
+            <element signature="e#2654#3301#0" expanded="false" />
+            <element signature="e#3323#4037#0" expanded="false" />
+            <element signature="e#4053#4222#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/do.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/front/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.054992765">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.42696628">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding />
         </state>
       </provider>

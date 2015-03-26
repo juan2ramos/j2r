@@ -6,7 +6,7 @@
   right: $right;
   top: $top;
 }
-
+@mixin margin(){margin: 0;padding: 0}
 @mixin font-size($sizeValue: 16 ) {
   font-size: ($sizeValue / 16) + rem;
 }
@@ -32,6 +32,13 @@
   }
 }
 
+/* colors */
+$yellow: #FCD106;
+$blue: #6ce;
+$green: #8da;
+$gray: #EDEFF0;
+$red: #DC5E5B;
+$blueDark: #415169;
 
 * {
   -webkit-box-sizing: border-box; // Safari <= 5
@@ -39,17 +46,20 @@
   box-sizing: border-box;
 }
 a {
-  color: tomato;
+  color: $red;
+  text-decoration: none;
   &:hover{
-    text-decoration: none;
+    color:$blueDark;
+    text-decoration: underline;
   }
 }
 body {
-  color: #464c3e;
+  color: $blueDark;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 100;
 }
+img{width: 100%}
 li { list-style: none; }
 section{
   margin: auto;
@@ -61,11 +71,6 @@ ul {
   padding: 0;
 }
 @import url(font.scss);
-/* colors */
-$yellow: #FCD106;
-$blue: #6ce;
-$green: #8da;
-$gray: #EDEFF0;
 
 /* header */
 
@@ -83,7 +88,7 @@ $gray: #EDEFF0;
   height: 500px;
   text-align: center;
   button{
-    background: tomato;
+    background: $red;
     border: none;
     box-shadow: 0 .32rem rgb(163, 75, 59);
     color: white;
@@ -91,13 +96,13 @@ $gray: #EDEFF0;
     font-size: 1.2rem;
     font-weight: 400;
     left: 50%;
-    margin-left: -10rem;
+    margin: -8rem -10rem;
     padding: 1.25rem;
     position: absolute;
-    top: 12.1875rem;
+    top: 50%;
     width: 20rem;
     &:hover{
-      box-shadow: 0 0 tomato,inset 0 0 0.4rem rgba(0,0,0,0.5);
+      box-shadow: 0 0 $red,inset 0 0 0.4rem rgba(0,0,0,0.1);
       padding: 1.4rem 1.25rem 1.42rem;
     }
     &:focus{
@@ -105,13 +110,13 @@ $gray: #EDEFF0;
     }
   }
   p {
-    border-bottom: .0625rem solid tomato;
+    border-bottom: .0625rem solid $red;
     display: inline;
     line-height: 1rem;
     padding: 0.65rem;
     position: relative;
     top: 25rem;
-    text-shadow: 0 0 0.65rem tomato;
+    text-shadow: 0 0 0.65rem $red;
     font-weight: 400;
     color: white;
   }
@@ -141,15 +146,15 @@ $gray: #EDEFF0;
 .BarSocial {
   @include font-size(10);
   @include center(100, '%');
-  box-shadow: 0 0 1.2rem 0 rgba(0, 0, 0, .5);
+  background: #516F8A;
   max-width: 90rem;
   a{
     @include font-size(24);
-    color: rgb(181, 181, 181);
+    color: #fefefe;
     line-height: 0;
     text-decoration: none;
     &:hover{
-      color: tomato;
+      color: $red;
     }
   }
   li {
@@ -183,18 +188,25 @@ $gray: #EDEFF0;
 /* About */
 
 .About {
-  background: $gray;
+  background-color:#FAFAFA;
+  background-image: linear-gradient(white 2px, transparent 2px),
+  linear-gradient(90deg, white 2px, transparent 2px),
+  linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+  background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
   padding-bottom: 3rem;
   text-align: center;
   h1 {
     @include font-size(44);
-    font-weight: 300;
+    color: $blueDark;
+    font-weight: normal;
     margin: 0;
-    padding: 3rem 0 2rem;
+    padding: 3rem 0 1rem;
   }
   p {
     @include font-size(20.8);
-    @include center(90, '%', 1.25, 1.25);
+    @include center(90, '%', 1.25, 1);
     line-height: 2rem;
     text-align: justify;
 
@@ -204,12 +216,17 @@ $gray: #EDEFF0;
 /* Do */
 
  .Do{
-   background: $yellow;
+   background: $blue;
    text-align: center;
    h1{
      margin: 0;
      padding: 0;
      color: $gray;
+   }
+   figure{
+     @include margin;
+     width: 20%;
+
    }
  }
 

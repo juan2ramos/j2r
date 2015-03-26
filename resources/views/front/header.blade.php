@@ -9,7 +9,6 @@
             <li>y cómo puedes <a href="#">conocerme</a></li>
         </ul>
     </nav>
-    <p class="Header-message">{{$message}}</p>
     <button>¡Cuentame tu idea!</button>
 </header>
 
