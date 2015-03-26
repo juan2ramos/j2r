@@ -61,10 +61,6 @@ body {
 }
 img{width: 100%}
 li { list-style: none; }
-section{
-  margin: auto;
-  max-width: 90rem;
-}
 strong{font-weight: 300;  }
 ul {
   margin: 0;
@@ -84,7 +80,6 @@ ul {
 
 .Header {
   @include center(100, '%');
-  max-width: 90em;
   height: 500px;
   text-align: center;
   button{
@@ -147,7 +142,6 @@ ul {
   @include font-size(10);
   @include center(100, '%');
   background: #516F8A;
-  max-width: 90rem;
   a{
     @include font-size(24);
     color: #fefefe;
@@ -180,8 +174,9 @@ ul {
   }
   .content{
     margin: auto;
-    width: 90%;
+    max-width: 80rem;
     padding: .6rem 0 .4rem;
+    width: 90%;
   }
 }
 
@@ -207,6 +202,7 @@ ul {
   p {
     @include font-size(20.8);
     @include center(90, '%', 1.25, 1);
+    max-width: 80rem;
     line-height: 2rem;
     text-align: justify;
 
