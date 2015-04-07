@@ -61,7 +61,7 @@
 </body>
 <!-- JavaScript -->
 
-<script src="{{asset('js/jquery-1.11.2.min.js')}}"></script>
+<script src="{{asset('js/jquery.js')}}"></script>
 <script src="{{asset('js/main.js')}}"></script>
 @yield('javascript')
 </html>

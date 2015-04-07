@@ -6,4 +6,5 @@
     @include('front.barSocial')
     @include('front.about')
     @include('front.do')
+    @include('front.code')
 @stop
